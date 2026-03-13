@@ -8,13 +8,18 @@
 </template>
 
 <script>
+import queryString from 'query-string';
+
 export default {
   data() {
     return {
       title: 'Hello',
     }
   },
-  onLoad() {},
+  onLoad() {
+    // console.log('queryString', queryString);
+
+  },
   methods: {},
 }
 </script>
